@@ -7,6 +7,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
 
     console.log('I am ready!');
+  client.user.setActivity('YouTube', { type: 'WATCHING' });
 
 });
 
@@ -21,7 +22,7 @@ client.on('message', message => {
        }
 
 });
-client.user.setActivity('YouTube', { type: 'WATCHING' });
+
 
  
 
