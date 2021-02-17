@@ -21,6 +21,7 @@ client.on('message', message => {
        }
 
 });
+client.user.setActivity('YouTube', { type: 'WATCHING' });
 
  
 
